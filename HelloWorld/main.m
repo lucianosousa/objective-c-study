@@ -1,11 +1,3 @@
-//
-//  main.m
-//  HelloWorld
-//
-//  Created by Luciano Sousa on 12/25/11.
-//  Copyright (c) 2011 Bonera Software. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
 
 int main (int argc, const char * argv[])
@@ -13,8 +5,11 @@ int main (int argc, const char * argv[])
 
     @autoreleasepool {
         
-        // insert code here...
-        NSLog(@"Hello, World!");
+        double sum;
+        float value1 = 50.5f;
+        int value2 = 20;
+        sum = value1 + value2;
+        NSLog(@"The sum of the %f and %i is: %f", value1, value2, sum);
         
     }
     return 0;
